@@ -1,0 +1,203 @@
+/*
+
+Atom One Dark by Daniel Gamage
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+
+base:    #282c34
+mono-1:  #abb2bf
+mono-2:  #818896
+mono-3:  #5c6370
+hue-1:   #56b6c2
+hue-2:   #00ffdb
+hue-3:   #c678dd
+hue-4:   #5ecc41
+hue-5:   #e06c75
+hue-5-2: #be5046
+hue-6:   #d19a66
+hue-6-2: #ffee58
+
+*/
+.btn-copy {
+    width: 20px;
+    height: 20px;
+    position: relative !important;
+    display: block;
+    background: url(/wp-content/plugins/sds-scrivo-highlighter/copy-btn.svg) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    /* position: absolute; */
+    padding: 0;
+    display: block;
+    /* top: 4px; */
+    /* top: 5px; */
+    border: none;
+    -webkit-transition: opacity .2s linear;
+    -o-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+    /* opacity: .5; */
+    outline: 0;
+    z-index: 5;
+    /* right: 0px; */
+    margin-left: auto;
+    /* margin-bottom: -25px !important; */
+    margin-right: 6px;
+    width: 100%;
+    background-size: 15px;
+    background-position: center;
+    background-color: black;
+    background-position-y: 5px;
+    background: b;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.btn-copy:hover {
+    background: url(/wp-content/plugins/sds-scrivo-highlighter/copy-btn-white.svg) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    /* position: absolute; */
+    padding: 0;
+    display: block;
+    /* top: 4px; */
+    /* top: 5px; */
+    border: none;
+    -webkit-transition: opacity .2s linear;
+    -o-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+    /* opacity: .5; */
+    outline: 0;
+    z-index: 5;
+    /* right: 0px; */
+    margin-left: auto;
+    /* margin-bottom: -25px !important; */
+    margin-right: 6px;
+    width: 100%;
+    background-size: 15px;
+    background-position: center;
+    background-color: black;
+    background-position-y: 5px;
+    background: b;
+    border-radius: 4px 4px 0px 0px;
+}
+
+
+td.hljs-ln-line.hljs-ln-numbers {
+    border-right-color: #12b223;
+    width: 20px;
+    text-align: end;
+    padding-right: 5px;
+}
+
+td.hljs-ln-line.hljs-ln-code {
+    padding-left: 15px;
+}
+
+
+.sds-scrivo-highlighter pre {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 1.5em;
+    background: white;
+    /* border-radius: 0px 0px 4px 4px; */
+}
+
+/*
+/wp-content/plugins/sds-scrivo-highlighter/copy-btn.svg
+*/
+.hljs table {
+    border-collapse: separate;
+    /* border-spacing: 0; */
+    /* border-width: 1px 0 0 1px; */
+    margin: inherit !important;
+    width: 100%;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #d8dbe0;
+    background: #000000;
+    border-radius: 0px 0px 4px 4px;
+}
+
+code.sds-scrivo-highlighter-code {
+    display: inline-block;
+    padding-right: 0px;
+    margin: 0px;
+    margin-bottom: -8px;
+    padding: 5px;
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
+    border-radius: 4px;
+}
+
+
+.hljs-comment,
+.hljs-quote {
+    color: #5c6370;
+    font-style: italic;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+    color: #c678dd;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+    color: #e06c75;
+}
+
+.hljs-literal {
+    color: #56b6c2;
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta-string {
+    color: #5ecc41;
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title {
+    color: #ffee58;
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+    color: #d19a66;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+    color: #00ffdb;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: bold;
+}
+
+.hljs-link {
+    text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/_Scrivo_Highlight/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/_Scrivo_Highlight/vendor/composer" />
+    </include_path>
+  </component>
+</project>

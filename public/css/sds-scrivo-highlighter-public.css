@@ -1,0 +1,96 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+[data-tooltip-sds-scrivo-highlighter]:before {
+    /* needed - do not touch */
+    content: attr(data-tooltip-sds-scrivo-highlighter);
+    position: absolute;
+    opacity: 0;
+
+    /* customizable */
+    transition: all 0.15s ease;
+    padding: 10px;
+    color: #333;
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px silver;
+
+    right:0;
+    left:0;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width:200px;
+    text-align:center;
+    font-weight:700;
+
+}
+
+[data-tooltip-sds-scrivo-highlighter]:hover:before {
+    /* needed - do not touch */
+    opacity: 1;
+
+    /* customizable */
+    background: white;
+    margin-top: 30px;
+    display:block;
+
+    right:0;
+    left:0;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width:200px;
+}
+
+[data-tooltip-sds-scrivo-highlighter]:not([data-tooltip-persistent]):before {
+    pointer-events: none;
+}
+
+
+.sds-scrivo-highlighter table.hljs-ln {
+    border: none;
+}
+
+.sds-scrivo-highlighter span.hljs-comment {
+    color:#d0c9c9
+}
+
+.sds-scrivo-highlighter table td,
+.sds-scrivo-highlighter table th{
+    border-bottom: 0.1px solid #3a3232;
+    border-right: 0.1px solid #3a3232;
+}
+
+.sds-scrivo-highlighter code,
+.sds-scrivo-highlighter kbd,
+.sds-scrivo-highlighter pre,
+.sds-scrivo-highlighter samp {
+    /*font-family:PT Sans !Important;*/
+    font-size:15px;
+}
+
+
+code.sds-scrivo-highlighter-code {
+    display: inline-block;
+    padding-right: 0px;
+    margin: 0px;
+    margin-bottom: -7px !important;
+    padding: 0px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    border-radius: 4px !important;
+}
+
+
+td.hljs-ln-line.hljs-ln-numbers {
+    border-right: 2px solid #12b223 !IMPORTANT;
+    text-align: end;
+    /* padding-right: 5px !IMPORTANT; */
+    display: table-cell;
+    padding-right: 0px;
+    /* right: 6px !important; */
+    /* right: 0px; */
+    min-width: 35px!important;
+    padding-right: 5px;
+}
