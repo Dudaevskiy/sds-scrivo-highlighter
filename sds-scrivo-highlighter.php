@@ -77,7 +77,7 @@ function run_sds_scrivo_highlighter() {
 
 	$plugin = new Sds_Scrivo_Highlighter();
 	$plugin->run();
-
+    require_once plugin_dir_path( __FILE__ ) . '_SDStudio_SHORT_CODES.php';
 }
 run_sds_scrivo_highlighter();
 
@@ -404,9 +404,14 @@ if (current_user_can( 'administrator' ) === false ) {
     add_filter('the_content', 'sdstudio_code_content');
 }
 
+//_SDStudio_SHORT_CODES.php
 //$id = 10069;
 //$getpostdata = get_postdata(10069);
 //dd($getpostdata);
+
+
+
+
 
 
 
