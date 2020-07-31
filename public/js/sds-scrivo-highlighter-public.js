@@ -1,6 +1,5 @@
-(function( $ ) {
-	'use strict';
-
+//(function( $ ) {
+//	'use strict';
 	/**
 	 * All of the code for your public-facing JavaScript source
 	 * should reside in this file.
@@ -29,7 +28,7 @@
 	 * practising this, we should strive to set a better example in our own work.
 	 */
 
-})( jQuery );
+//})( jQuery );
 
 // jQuery(document).ready(function($){
 // // 		$(window).on('load', function () {
